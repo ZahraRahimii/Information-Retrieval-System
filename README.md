@@ -1,2 +1,2 @@
 # Simple-Search-Engine
-the project of Information Retrieval course!
+The project of Information Retrieval course!
