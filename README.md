@@ -4,7 +4,7 @@ The project of Information Retrieval course.
 # Brief description
 This project consists of two phases; the first phase includes:
 * Data preprocessing
-* Creating a positional index
+* Creating a `positional index`
 * Respond to the user
 
 and the second phase consists of:
