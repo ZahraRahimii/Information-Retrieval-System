@@ -1,5 +1,5 @@
 # Information Retrieval System
-This project is implemented for [ISNA](https://drive.google.com/file/d/1p0sMTj6hAw8G3QxYkFmXXA1Q5eDABgCr/view?usp=sharing) news agency dataset in two phases.
+This project is implemented for [ISNA news agency dataset](https://drive.google.com/file/d/1p0sMTj6hAw8G3QxYkFmXXA1Q5eDABgCr/view?usp=sharing) in two phases.
 
 ## Brief description
 This project consists of two phases; the first phase includes:
