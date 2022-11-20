@@ -17,6 +17,6 @@ The most important functions are listed below:
 * doc_preprocessing(): tokenizing, removing stopwords and stemming are done by this function;
 * create_positional_index()
 * Query_extraction class:
-** multiword_extraction(): extracting the biwords
-** not_token_extraction(): extracting the words that mustn't be in the result
+  * multiword_extraction(): extracting the biwords
+  * not_token_extraction(): extracting the words that mustn't be in the result
 * showResultWithoutRanking(): the document results are ranked just by their frequency of using the query's words.
