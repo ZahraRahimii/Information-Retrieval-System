@@ -10,5 +10,5 @@ This project consists of two phases; the first phase includes:
 and the second phase consists of:
 * Representing document in vector space model
 * Respond to the user in vector space
-* Increasing the speed of query processing by creating 'champion list'
+* Increasing the speed of query processing by creating '''champion list'''
 
