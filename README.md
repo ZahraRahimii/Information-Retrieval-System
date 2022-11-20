@@ -1,4 +1,4 @@
-# Simple-Search-Engine
+# Simple Search Engine
 The project of Information Retrieval course.
 
 # Brief description
