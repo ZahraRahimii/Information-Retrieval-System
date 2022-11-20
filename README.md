@@ -1,7 +1,7 @@
 # Information Retrieval System
 This project is implemented for ISNA news agency dataset in two phases.
 
-# Brief description
+## Brief description
 This project consists of two phases; the first phase includes:
 * Data preprocessing
 * Creating a `positional index`
