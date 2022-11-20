@@ -75,7 +75,6 @@ def create_inverted_index(contents):
     pos_index = {}
     # pre_processed_tokens = pre_process(contents)
     for id, content in enumerate(contents):
-        print(id)
         tokens = doc_pre_processing(content)
         for pos, term in enumerate(tokens):
             
@@ -191,11 +190,9 @@ def multi_word_query(multi_words, id_freq):
     results_id_freq = []
     for tokens in multi_words:
         idfreq = {}
-        print("Multi Words", tokens)
         pos_index0 = positional_index[tokens[0]]
         pos_index1 = positional_index[tokens[1]]
         docIds_results = biword_processing( pos_index0, pos_index1, idfreq)
-        print("Hi", idfreq)
         results_id_freq.append(idfreq)
         all_results.append(docIds_results)
     
