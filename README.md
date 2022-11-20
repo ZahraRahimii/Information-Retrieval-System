@@ -15,8 +15,17 @@ and the second phase consists of:
 # Phase 1: Implement positional index
 The most important functions are listed below:
 * doc_preprocessing(): tokenizing, removing stopwords and stemming are done by this function;
-* create_positional_index()
+* create_inverted_index(): creating the positional index
 * Query_extraction class:
   * multiword_extraction(): extracting the biwords
   * not_token_extraction(): extracting the words that mustn't be in the result
-* showResultWithoutRanking(): the document results are ranked just by their frequency of using the query's words.
+* showResultWithoutRanking()
+
+# Phase 2: Efficient query responding by modeling in vector space and chmampion list
+The most important functions are listed below:
+* create_inverted_index(): Improve positonal index by adding tf-idf element
+* vectorize_query(): modeling query in vector space
+* similarity_DAAT(): Document at a time similarty algorithm which is not efficiant
+* similarity_TAAT(): Text at a time similarty algorithm which extremly decrease the time complexity by using index elimination technique
+* create_champion_list()
+* showRankedResult()
