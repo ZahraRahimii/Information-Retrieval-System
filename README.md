@@ -12,7 +12,7 @@ And the second phase consists of the following:
 * Respond to the user in vector space
 * Increasing the speed of query processing by creating `champion list`
 
-### Phase 1: Implement positional index
+## Phase 1: Implement positional index
 The most important functions are listed below:
 * doc_preprocessing(): tokenizing, removing stopwords, and stemming is done by this function;
 * create_inverted_index(): creating the positional index
@@ -21,7 +21,7 @@ The most important functions are listed below:
   * not_token_extraction(): extracting the words that mustn't be in the result
 * showResultWithoutRanking()
 
-### Phase 2: Efficient query responding by modeling in vector space and champion list
+## Phase 2: Efficient query responding by modeling in vector space and champion list
 The most important functions are listed below:
 * create_inverted_index(): Improve positional index by adding tf-idf element
 * vectorize_query(): modeling query in vector space
